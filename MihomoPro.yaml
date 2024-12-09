@@ -350,7 +350,7 @@ rule-providers:
     url: https://ghp.ci/https://github.com/666OS/YYDS/raw/main/mihomo/rules/private.mrs
   cn_domain:
     <<: *DomainMrs
-    url: https://ghp.ci/https://github.com/666OS/YYDS/raw/main/mihomo/rules/cn.mrs
+    url: https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/cn.mrs
   # IP规则集
   facebook_ip:
     <<: *IPcidrMrs
