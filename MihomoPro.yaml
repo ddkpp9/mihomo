@@ -380,6 +380,7 @@ rules:
   - AND,((DST-PORT,443),(NETWORK,UDP)),REJECT-DROP
   # 常用必备
   - DST-PORT,123,DIRECT
+  - DOMAIN-SUFFIX,micu.hk,直连
   - IP-CIDR,95.161.76.100/31,REJECT-DROP,no-resolve
   # 防御
   - RULE-SET,category-public-tracker,REJECT-DROP
