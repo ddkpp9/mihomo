@@ -52,9 +52,7 @@ ClassicalYaml: &ClassicalYaml {type: http, interval: 86400, behavior: classical,
 # 远程订阅组
 # 注意：请提供您的机场订阅链接，每个链接一行，并为每个机场命名，末尾的[A]为每个节点添加机场名称前缀，可自定义
 proxy-providers:
-  红杏☀: {<<: *PProviders, url: 'https://hongxingdl.com/hxvip?token=46d91ba996890e564c3a7a642ad77260', override: {additional-prefix: '[红杏] '}}
-  流量光🌙: {<<: *PProviders, url: 'https://rgergergergerg6555.saojc.xyz/api/v1/client/subscribe?token=98a42823cc8c24aa04520edbf2f1c919', override: {additional-prefix: '[流量光] '}}
-  库洛米📚: {<<: *PProviders, url: 'https://kuromisubs.shop/5872b40ddd40e7f8ea8f5e9e49547e58?type=clash&protocol=trojan&use=domestic&rule=default', override: {additional-prefix: '[库洛米📚] '}}
+
 
 # 全局配置
 port: 7890
